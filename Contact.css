@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: #f0f2f5;
+}
+
+.contact {
+  padding: 4rem 0;
+  background-color: #343a40;
+  color: #fff;
+}
+
+.contact .container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #495057;
+}
+
+.contact .heading {
+  font-size: 2.5rem;
+  color: #f9d342;
+  margin-bottom: 1.5rem;
+}
+
+.contact .paragraph {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #fffae5;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 2rem 1rem;
+  }
+
+  .contact .heading {
+    font-size: 2rem;
+  }
+
+  .contact .paragraph {
+    font-size: 1rem;
+  }
+}
